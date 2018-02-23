@@ -19,6 +19,28 @@
     background-color: #696969;
 }
 
+/*-----------------------------------------------------Miscellaneous/Styles/Values/Bovinators*/
+
+h1,h2,h3,h4,h5,h6,h7{
+    margin: 0;
+}
+
+.uppercase{
+ text-transform: uppercase;    
+}
+
+.general-styles{
+    font-family: "Roboto Slab",sans-serif;
+    font-weight:400;
+    color: #f0ffff;
+    padding-top: 18px;
+    padding-bottom: 8px;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
 /*-----------------------------------------------------Headings*/
 header{
     margin: 0;
@@ -100,7 +122,31 @@ header{
 }
 
 
+/*-----------------------------------------------------Footer*/
 
+footer{
+    background-color: #696969;
+    color: #f0ffff;
+    margin: 0;
+    min-height: 93px;
+}
 
+footer .font-style{
+    font-family: "Mukta Malar", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}
 
-
+footer .list-pdf i{
+    color:#f0ffff;
+    font-size: 12px;
+    padding-left: 4px;
+   /* why do i need this here?  text-align: center; */
+}
+ 
+footer .list-pdf i:hover{
+    color: 	#32cd32;
+    transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
