@@ -51,9 +51,9 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 372px;
-    transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
+    transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -webkit-transition: all .5s ease-out;
 }
 
 .picture{
@@ -141,12 +141,41 @@ footer .list-pdf i{
     color:#f0ffff;
     font-size: 12px;
     padding-left: 4px;
-   /* why do i need this here?  text-align: center; */
+   text-align: center; 
 }
  
 footer .list-pdf i:hover{
-    color: 	#32cd32;
+    color: 	#4169e1;
     transition: all 1s ease-out;
     -moz-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+}
+
+.social-links{
+    padding-bottom: 12px;
+}
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 10px 0;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 12px;
+    color: #f0ffff;
+    background-color: #736b6b;;
+     transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    
+}
+.social-links li a i:hover{
+    background:#4169e1;
+}
+#footer-margin {
+    margin: 5px 8px 0px 8px;
 }
