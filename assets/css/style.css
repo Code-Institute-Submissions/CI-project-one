@@ -19,6 +19,18 @@
     background-color: #696969;
 }
 
+.bg-color-band-info {
+    background-color: 
+  #f8f8ff;
+}
+
+.bg-color-video {
+    background-color: #ffffff;
+}
+
+#strong-color{
+    color:  #ff8c00;
+}
 /*-----------------------------------------------------Miscellaneous/Styles/Values/Bovinators*/
 
 h1,h2,h3,h4,h5,h6,h7{
@@ -37,9 +49,28 @@ h1,h2,h3,h4,h5,h6,h7{
     padding-bottom: 8px;
 }
 
+.band-info-item p{
+    font-family: "Mukta Malar", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 .inline-block{
     display: inline-block;
 }
+
+.section-heading{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.video-container{
+    clear: both;
+}
+
 
 /*-----------------------------------------------------Headings*/
 header{
@@ -121,6 +152,9 @@ header{
   background: rgba(0,0,0, 0.2);
 }
 
+.social-links li a i:hover{
+    background:#4169e1;
+}
 
 /*-----------------------------------------------------Footer*/
 
@@ -173,9 +207,27 @@ footer .list-pdf i:hover{
     -o-transition: all 1s ease-out;
     
 }
-.social-links li a i:hover{
-    background:#4169e1;
-}
+
 #footer-margin {
     margin: 5px 8px 0px 8px;
 }
+
+/*-----------------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column{
+    padding:0 30px 30px;
+    float:none;
+    display: table-cell;
+}
+}
+
+
+
+ /*---  <iframe width="374" height="210" src="https://www.youtube.com/embed/MgTSfJEf_jM?rel=0" 
+                                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> ---*/
+                                    
+                                    
+                                    ?
+       /* <iframe width="374" height="210" src="https://www.youtube.com/embed/HHjKzr6tLz0?rel=0&amp;start=20" 
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>*/
