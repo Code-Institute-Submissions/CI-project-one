@@ -20,22 +20,23 @@
 }
 
 .bg-color-band-info {
-    background-color: #f7f6ea;
+    background-color: #fff8dc;
 
 }
 
 .bg-color-music-info{
-    background-color: #e6e6fa;
+    background-color: #ffffff;
 }
 
-.bg-color-video {
-    background-color: #f8f8ff;
+.bg-color-home {
+    background-color: #ffffff;
 }
 
 .bg-color-music {
-    background-color: #a4142d;
-}
-
+  
+background-color: #2061a5;
+   
+ }
 
 
 #strong-color {
@@ -62,14 +63,21 @@ h7 {
     font-family: "Roboto Slab", sans-serif;
     font-weight: 400;
     color: #f0ffff;
-    padding-top: 18px;
+    padding-top: 16px;
     padding-bottom: 8px;
 }
 
-.band-info-item p {
+.band-info-item  {
     font-family: "Mukta Malar", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.band-music-item p {
+    
+    font-family: "Mukta Malar", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .inline-block {
@@ -92,12 +100,13 @@ h7 {
     margin-bottom: 40px;
 }
 
-.section-heading-video {
+.section-heading-home {
     font-family: "Roboto Slab", sans-serif;
     font-size: 17px;
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 40px;
+     color: #000000;
 }
 
 .section-heading-music {
@@ -106,6 +115,7 @@ h7 {
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 40px;
+    color: #f0ffff;
 }
 
 
@@ -115,11 +125,16 @@ h7 {
 }
 
 #social{
-    padding-bottom: 0;
-        
+    padding-bottom: 12px;
+  
 }
 
-/*-----------------------------------------------------Video-styles*/
+.picture-music-info{
+    margin: 4px 7px 1px 0px;
+    float: left;
+}
+
+/*-----------------------------------------------------Video/Audio-styles*/
 
 .video-container {
     position: relative;
@@ -156,7 +171,6 @@ h7 {
 }
 
 
-
 figure {
     display: inline-block;
     margin: 10px; 
@@ -164,13 +178,17 @@ figure {
 
 figure .image-style {
     vertical-align: top;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 140px;
 }
 
 figure .audio-bar {
     text-align: center;
-    width: 150px; 
+    width: 160px; 
+    
+}
+audio {
+    background-color: blue;
 }
 /*-----------------------------------------------------Headings*/
 
@@ -203,24 +221,14 @@ header {
 
 .picture-music {
     background: url("../images/animals-bw-tall.jpg");
-   background-position: center;
+    background-position: center;
     background-size: contain;
     background-repeat: repeat;
     position: relative;
     min-height: 360px;
    
 }
-/*
-.background-music {
-    background: url("../images/a-small.jpg");
-   background-position: center;
-    background-size: contain;
-    background-repeat: repeat;
-    position: relative;
-    min-height: 360px;
-   
-}
-*/
+
 
 #navbar {
     position: absolute;
@@ -232,18 +240,36 @@ header {
 #nav-list {
     margin: 0;
     
-
 }
 
-#nav-list li {
-    padding: 0;
+#border-home {
     border-style: solid;
-    border-width: 4px 2px;
+    border-width: 4px 4px 4px 4;
     border-color: #000000;
 }
 
+#border-music{
+   border-style: solid;
+    border-width: 4px 4px 4px 0;
+    border-color: #000000;
+}
+
+#border-customers{
+   border-style: solid;
+    border-width: 4px 4px 4px 0;
+    border-color: #000000;
+}
+
+#border-contact{
+   border-style: solid;
+    border-width: 4px 4px 4px 0;
+    border-color: #000000;
+}
+
+
+
 .menuitem {
-    height: 90px;
+    height: 86px;
     text-align: center;
     padding: 0;
 }
@@ -256,7 +282,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 18px;
     font-size: 18px;
     color: #f0ffff;
     display: block;
@@ -265,26 +291,36 @@ header {
 .menuitem span {
     width: 100%;
     padding-top: 3px;
-    font-size: 14px;
+    font-family: "Mukta Malar", sans-serif;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
 }
 
-/*-----------------------------------------------------Hover*/
-
 .hvr-rectangle-out {
     background: none;
+    width: 100%;
+   
 }
+
+/*-----------------------------------------------------Hover*/
+
+
 
 .hvr-rectangle-out:before {
     background: rgba(0, 0, 0, 0.2);
+     width: 100%;
+  
 }
 
 .social-links li a i:hover {
     background: #4169e1;
+    
+  
 }
+
 .wiki-link:hover {
     color: #4169e1;
     text-decoration: none;
@@ -367,6 +403,37 @@ footer .list-pdf i:hover {
     }
 }
 
+@media(max-width: 771px){
+    #border-home{
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #000000;
+    }
+    #border-music{
+    border-style: solid;
+    border-width: 4px 4px 4px 0px;
+    border-color: #000000;
+    }
+    #border-customers{
+    border-style: solid;
+    border-width: 0px 4px 4px 4px;
+    border-color: #000000;
+    }
+    #border-contact{
+    border-style: solid;
+    border-width: 0px 4px 4px 0px;
+    border-color: #000000;
+    }
+    
+    
+}
+
+@media(max-width: 771px){
+    .section-heading-home{
+        text-align: center;
+    }
+}
+
 /*------------------------------------------------------Keyframes*/
 
 
@@ -380,3 +447,5 @@ footer .list-pdf i:hover {
     transform: translateX(0);
   }
 }
+
+
