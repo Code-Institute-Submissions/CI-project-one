@@ -20,31 +20,34 @@
 }
 
 .bg-color-band-info {
-    background-color: #fff8dc;
+    background-color: #ffffff;
 
 }
 
-.bg-color-music-info{
+.bg-color-music-info {
     background-color: #ffffff;
 }
 
 .bg-color-home {
-    background-color: #ffffff;
+    background-color: #ff8c00;
 }
 
 .bg-color-music {
-  
-background-color: #2061a5;
-   
- }
 
+    background-color: #2061a5;
+
+}
+
+.bg-color-customers {
+     background-color: #fff8dc;
+}
 
 #strong-color {
     color: #ff8c00;
 }
 
-#strong-color-free{
-  color:  #ff4500;
+#strong-color-free {
+    color: #ff4500;
 }
 
 /*-----------------------------------------------------Miscellaneous/Styles/Values/Bovinators*/
@@ -71,17 +74,28 @@ h7 {
     padding-bottom: 8px;
 }
 
-.band-info-item  {
+.band-info-item {
     font-family: "Mukta Malar", sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
 .band-music-item p {
-    
+
     font-family: "Mukta Malar", sans-serif;
     font-weight: 400;
     font-size: 18px;
+}
+
+.band-customers-item p {
+    font-family: "Mukta Malar", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.picture-music-info {
+    margin: 4px 7px 1px 0px;
+    float: left;
 }
 
 .inline-block {
@@ -91,9 +105,12 @@ h7 {
 .list-inline li {
     display: inline-block;
     padding: 0px;
-   
-    
+
 }
+
+
+
+/*-----------------------------------------------------Section Headings*/
 
 .section-heading-music-info {
     font-family: "Roboto Slab", sans-serif;
@@ -113,36 +130,29 @@ h7 {
 
 .section-heading-home {
     font-family: "Roboto Slab", sans-serif;
-    font-size: 17px;
-    font-weight: 500;
-    margin-top: 25px;
-    margin-bottom: 40px;
-     color: #000000;
-}
-
-.section-heading-music {
-    font-family: "Roboto Slab", sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 40px;
     color: #f0ffff;
 }
 
-
-.wiki-link{
-    color: #ff8c00;
-    text-decoration: underline;
+.section-heading-music {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #f0ffff;
 }
 
-#social{
-    padding-bottom: 12px;
-  
-}
-
-.picture-music-info{
-    margin: 4px 7px 1px 0px;
-    float: left;
+.section-heading-customers{
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #000000; 
 }
 
 /*-----------------------------------------------------Video/Audio-styles*/
@@ -169,22 +179,22 @@ h7 {
 }
 
 .video-border {
-	margin: 0 auto;
-	border: 8px outset #000000;	
+    margin: 0 auto;
+    border: 8px outset #000000;
 }
 
- iframe {  
-  animation: 1s ease-in-out 0s 1 slideInFromLeft;
+iframe {
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
 }
 
-#video-padding{
+#video-padding {
     padding-bottom: 16px;
 }
 
 
 figure {
     display: inline-block;
-    margin: 10px; 
+    margin: 10px;
 }
 
 figure .image-style {
@@ -195,12 +205,14 @@ figure .image-style {
 
 figure .audio-bar {
     text-align: center;
-    width: 160px; 
-    
+    width: 160px;
+
 }
+
 audio {
     background-color: blue;
 }
+
 /*-----------------------------------------------------Headings*/
 
 header {
@@ -237,47 +249,57 @@ header {
     background-repeat: repeat;
     position: relative;
     min-height: 360px;
-   
+
 }
 
+.picture-customers{
+    background: url("../images/a-hero-image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 360px;
+    position: relative;
+
+}
+
+/*-----------------------------------------------------Navigation Styles*/
 
 #navbar {
     position: absolute;
     bottom: 0;
     width: 100%;
-   
+
 }
 
 #nav-list {
     margin: 0;
     padding: 0;
-    
+
 }
 
 #border-home {
     border-style: solid;
-    border-width: 4px 4px 4px 4px;
+    border-width: 4px 4px 4px 0px;
     border-color: #000000;
 }
 
-#border-music{
-   border-style: solid;
+#border-music {
+    border-style: solid;
     border-width: 4px 4px 4px 0;
     border-color: #000000;
 }
 
-#border-customers{
-   border-style: solid;
+#border-customers {
+    border-style: solid;
     border-width: 4px 4px 4px 0;
     border-color: #000000;
 }
 
-#border-contact{
-   border-style: solid;
+#border-contact {
+    border-style: solid;
     border-width: 4px 4px 4px 0;
     border-color: #000000;
 }
-
 
 
 .menuitem {
@@ -313,26 +335,24 @@ header {
 
 .hvr-rectangle-out {
     background: none;
-  
-  
-   
+
+
+
 }
 
 /*-----------------------------------------------------Hover*/
 
-
-
 .hvr-rectangle-out:before {
     background: rgba(0, 0, 0, 0.2);
-    background-size:cover;
-    
-  
+
+
+
 }
 
 .social-links li a i:hover {
     background: #4169e1;
-    
-  
+
+
 }
 
 .wiki-link:hover {
@@ -343,6 +363,13 @@ header {
     -webkit-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
 }
+
+.social-links-quotes i:hover {
+    background: #4169e1;
+
+
+}
+
 /*-----------------------------------------------------Footer*/
 
 footer {
@@ -380,6 +407,16 @@ footer .list-pdf i:hover {
     margin: 5px 8px 0px 8px;
 }
 
+.wiki-link {
+    color: #ff8c00;
+    text-decoration: underline;
+}
+
+#social {
+    padding-bottom: 12px;
+
+}
+
 /*-----------------------------------------------------Social Links*/
 
 .social-links {
@@ -406,6 +443,25 @@ footer .list-pdf i:hover {
 }
 
 
+.social-links-quotes i {
+ 
+    width: 32px;
+    height: 32px;
+    padding: 10px 0;
+    margin-left: 25px;
+    border-radius: 50%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 12px;
+    color: #f0ffff;
+    background-color: #a4142d;
+    transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+
+}
+
 
 /*-----------------------------------------------------Media Queries*/
 
@@ -417,49 +473,80 @@ footer .list-pdf i:hover {
     }
 }
 
-@media(max-width: 500px){
-    #border-home{
-    border-style: solid;
-    border-width: 4px 4px 4px 4px;
-    border-color: #000000;
+@media(max-width: 767px) {
+    #border-home {
+        border-style: solid;
+        border-width: 4px 4px 4px 4px;
+        border-color: #000000;
     }
-    #border-music{
-    border-style: solid;
-    border-width: 4px 4px 4px 0px;
-    border-color: #000000;
+    #border-music {
+        border-style: solid;
+        border-width: 4px 4px 4px 0px;
+        border-color: #000000;
     }
-    #border-customers{
-    border-style: solid;
-    border-width: 0px 4px 4px 4px;
-    border-color: #000000;
+    #border-customers {
+        border-style: solid;
+        border-width: 0px 4px 4px 4px;
+        border-color: #000000;
     }
-    #border-contact{
-    border-style: solid;
-    border-width: 0px 4px 4px 0px;
-    border-color: #000000;
+    #border-contact {
+        border-style: solid;
+        border-width: 0px 4px 4px 0px;
+        border-color: #000000;
     }
-    
-    
+
 }
 
-@media(max-width: 771px){
-    .section-heading-home{
+@media(max-width: 992px) {
+    #border-home {
+        border-style: solid;
+        border-width: 4px 4px 4px 4px;
+        border-color: #000000;
+    }
+}
+
+@media(max-width: 767px) {
+    .section-heading-home {
         text-align: center;
     }
 }
 
-/*------------------------------------------------------Keyframes*/
-
-
-
-
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+@media(max-width: 767px) {
+    .section-heading-music {
+        text-align: center;
+    }
 }
 
+@media(max-width: 411px) {
+   #padding-left-none  {
+    padding-left: 0;
+   /* WTF? */
+    }
+}
 
+@media(max-width: 767px) {
+    .logo {
+  /*  cant shorten the logo max-width */
+    }
+}
+
+ @media(max-width: 1024px) {
+     .social-links-quotes i {
+    margin-left: 15px;
+    }
+}
+@media(max-width: 376px) {
+    .section-heading-customers {
+    font-size: 18px; 
+    }
+}
+/*------------------------------------------------------Keyframes*/
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
