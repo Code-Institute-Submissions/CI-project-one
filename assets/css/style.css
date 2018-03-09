@@ -28,6 +28,14 @@
     background-color: #ffffff;
 }
 
+.bg-color-customers-info {
+    background-color: #ffffff;
+}
+
+.bg-color-contact-info {
+    background-color: #000000;
+}
+
 .bg-color-home {
     background-color: #ff8c00;
 }
@@ -39,7 +47,11 @@
 }
 
 .bg-color-customers {
-     background-color: #fff8dc;
+    background-color: #fff8dc;
+}
+
+.bg-color-contact {
+    background-color: #ffffff;
 }
 
 #strong-color {
@@ -74,6 +86,7 @@ h7 {
     padding-bottom: 8px;
 }
 
+
 .band-info-item {
     font-family: "Mukta Malar", sans-serif;
     font-weight: 400;
@@ -94,8 +107,23 @@ h7 {
 }
 
 .picture-music-info {
-    margin: 4px 7px 1px 0px;
+    margin: 4px 7px 0px 0px;
     float: left;
+}
+
+.picture-customers-info {
+    width: 275px;
+    height: 183px;
+    margin: 5px 5px 0px 0px;
+    float: left;
+}
+
+.picture-contact-info {
+    background: url("../images/celebration-one.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
 }
 
 .inline-block {
@@ -107,6 +135,7 @@ h7 {
     padding: 0px;
 
 }
+
 
 
 
@@ -128,6 +157,14 @@ h7 {
     margin-bottom: 40px;
 }
 
+.section-heading-customers-info {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 .section-heading-home {
     font-family: "Roboto Slab", sans-serif;
     font-size: 20px;
@@ -141,18 +178,28 @@ h7 {
     font-family: "Roboto Slab", sans-serif;
     font-size: 20px;
     font-weight: 500;
+    float: left;
     margin-top: 25px;
     margin-bottom: 40px;
     color: #f0ffff;
 }
 
-.section-heading-customers{
+.section-heading-customers {
     font-family: "Roboto Slab", sans-serif;
     font-size: 20px;
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 40px;
-    color: #000000; 
+    color: #000000;
+}
+
+.section-heading-contact {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    color: #000000;
 }
 
 /*-----------------------------------------------------Video/Audio-styles*/
@@ -220,7 +267,7 @@ header {
 }
 
 .logo {
-    background: url("../images/a-logo-crop.jpg");
+    background: url("../images/a-logo-cropped.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -252,8 +299,8 @@ header {
 
 }
 
-.picture-customers{
-    background: url("../images/a-hero-image.jpg");
+.picture-customers {
+    background: url("../images/a-hero-three.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -444,7 +491,7 @@ footer .list-pdf i:hover {
 
 
 .social-links-quotes i {
- 
+
     width: 32px;
     height: 32px;
     padding: 10px 0;
@@ -473,29 +520,6 @@ footer .list-pdf i:hover {
     }
 }
 
-@media(max-width: 767px) {
-    #border-home {
-        border-style: solid;
-        border-width: 4px 4px 4px 4px;
-        border-color: #000000;
-    }
-    #border-music {
-        border-style: solid;
-        border-width: 4px 4px 4px 0px;
-        border-color: #000000;
-    }
-    #border-customers {
-        border-style: solid;
-        border-width: 0px 4px 4px 4px;
-        border-color: #000000;
-    }
-    #border-contact {
-        border-style: solid;
-        border-width: 0px 4px 4px 0px;
-        border-color: #000000;
-    }
-
-}
 
 @media(max-width: 992px) {
     #border-home {
@@ -506,10 +530,32 @@ footer .list-pdf i:hover {
 }
 
 @media(max-width: 767px) {
-    .section-heading-home {
-        text-align: center;
+    #border-home {
+        border-style: solid;
+        border-width: 4px 4px 4px 0px;
+        border-color: #000000;
     }
+    #border-music {
+        border-style: solid;
+        border-width: 4px 0px 4px 0px;
+        border-color: #000000;
+    }
+    #border-customers {
+        border-style: solid;
+        border-width: 0px 4px 4px 0px;
+        border-color: #000000;
+    }
+    #border-contact {
+        border-style: solid;
+        border-width: 0px 0px 4px 0px;
+        border-color: #000000;
+    }
+
 }
+
+
+
+
 
 @media(max-width: 767px) {
     .section-heading-music {
@@ -518,28 +564,75 @@ footer .list-pdf i:hover {
 }
 
 @media(max-width: 411px) {
-   #padding-left-none  {
-    padding-left: 0;
-   /* WTF? */
+    #padding-left-none {
+        padding-left: 0;
+        /* WTF? */
+    }
+}
+
+
+@media(max-width: 1024px) {
+    .social-links-quotes i {
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 376px) {
+    .section-heading-customers {
+        font-size: 18px;
+    }
+}
+
+
+
+@media(max-width: 767px) {
+    .picture-customers-info {
+        margin-right: 10px;
+        float: left;
+    }
+}
+
+@media(max-width: 411px) {
+    .picture-customers-info {
+        margin: 10px 15px;
+        float: left;
+    }
+}
+
+@media(min-width: 1025px) {
+    .picture-customers-info {
+        width: 275px;
+        height: 197px;
+    }
+}
+
+
+@media(min-width: 1025px) {
+    .contact-styles {
+        margin: 0px 100px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 767px) {
+    .audio-styles {
+        margin-left: 55px;
     }
 }
 
 @media(max-width: 767px) {
     .logo {
-  /*  cant shorten the logo max-width */
+        background: url("../images/a-logo-cropped.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 300px;
+        transition: all .5s ease-out;
+        -moz-transition: all .5s ease-out;
+        -webkit-transition: all .5s ease-out;
     }
 }
 
- @media(max-width: 1024px) {
-     .social-links-quotes i {
-    margin-left: 15px;
-    }
-}
-@media(max-width: 376px) {
-    .section-heading-customers {
-    font-size: 18px; 
-    }
-}
+
 /*------------------------------------------------------Keyframes*/
 
 @keyframes slideInFromLeft {
@@ -549,4 +642,30 @@ footer .list-pdf i:hover {
     100% {
         transform: translateX(0);
     }
+}
+
+
+
+
+/*--------------------------------------------------------Contact*/
+
+.contact-heading {
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
 }
