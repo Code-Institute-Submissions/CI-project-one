@@ -86,15 +86,21 @@ h7 {
 }
 
 .picture-music-info {
-    margin: 4px 7px 0px 0px;
+    width: 200px;
+    height: 140px;
+    margin: 4px 8px 0px 0px;
     float: left;
+    box-shadow: 3px 4px 7.4px 0.6px rgba(0, 0, 0, 0.2);
+
 }
 
 .picture-customers-info {
     width: 275px;
     height: 183px;
-    margin: 5px 5px 0px 0px;
+    margin: 5px 10px 5px 0px;
     float: left;
+    box-shadow: 3px 4px 7.4px 0.6px rgba(0, 0, 0, 0.2);
+
 }
 
 .picture-contact-info {
@@ -157,7 +163,7 @@ h7 {
     color: #000000;
 }
 
-/*-----------------------------------------------------Video/Audio-styles*/
+/*-----------------------------------------------------Video/Audio/Images-styles*/
 
 .video-container {
     position: relative;
@@ -215,6 +221,10 @@ audio {
     background-color: blue;
 }
 
+.shadow-box {
+    box-shadow: 3px 4px 7.4px 0.6px rgba(0, 0, 0, 0.2);
+}
+
 /*-----------------------------------------------------Headings*/
 
 header {
@@ -230,7 +240,10 @@ header {
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
+    /*This transition is only working on the contact page logo.*/
 }
+
+
 
 
 
@@ -481,10 +494,10 @@ footer .list-pdf i:hover {
     line-height: 12px;
     color: #f0ffff;
     background-color: #a4142d;
-    transition: all 1s ease-out;
-    -moz-transition: all 1s ease-out;
-    -webkit-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
 
 }
 
@@ -543,8 +556,14 @@ footer .list-pdf i:hover {
     }
 }
 
+@media(max-width: 375px) {
+    .section-heading-customers {
+        text-align: center;
+    }
+}
+
 @media(max-width: 411px) {
-    #padding-left-none {
+    #pad-none {
         padding-left: 0;
     }
 }
@@ -563,6 +582,12 @@ footer .list-pdf i:hover {
 }
 
 
+@media(min-width: 1025px) {
+    .picture-customers-info {
+        width: 275px;
+        height: 197px;
+    }
+}
 
 @media(max-width: 767px) {
     .picture-customers-info {
@@ -571,17 +596,17 @@ footer .list-pdf i:hover {
     }
 }
 
-@media(max-width: 411px) {
+@media(max-width: 410px) {
     .picture-customers-info {
         margin: 10px 15px;
         float: left;
     }
 }
 
-@media(min-width: 1025px) {
+@media(max-width: 359px) {
     .picture-customers-info {
-        width: 275px;
-        height: 197px;
+        margin: 10px 0;
+        float: left;
     }
 }
 
@@ -598,8 +623,57 @@ footer .list-pdf i:hover {
     }
 }
 
+@media(max-width: 359px) {
+    figure .image-style {
+        vertical-align: top;
+        width: 140px;
+        height: 100px;
+    }
+
+    figure .audio-bar {
+        text-align: center;
+        width: 140px;
+
+    }
+
+}
 
 
+@media(min-width: 767px) {
+    figure .image-style {
+        vertical-align: top;
+        width: 180px;
+        height: 155px;
+    }
+
+    figure .audio-bar {
+        text-align: center;
+        width: 180px;
+
+    }
+
+}
+
+@media(min-width: 1680px) {
+    figure .image-style {
+        vertical-align: top;
+        width: 200px;
+        height: 170px;
+    }
+
+    figure .audio-bar {
+        text-align: center;
+        width: 200px;
+
+    }
+}
+
+@media(max-width: 359px) {
+    
+#hidden-xxs{
+    display: none;
+}
+}
 /*------------------------------------------------------Keyframes*/
 
 @keyframes slideInFromLeft {
@@ -609,4 +683,11 @@ footer .list-pdf i:hover {
     100% {
         transform: translateX(0);
     }
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
