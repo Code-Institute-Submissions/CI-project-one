@@ -218,7 +218,7 @@ figure .audio-bar {
 }
 
 audio {
-    background-color: blue;
+    background-color: #F1F3F4;
 }
 
 .shadow-box {
@@ -407,6 +407,13 @@ button[type="submit"] {
     background: #4169e1;
 
 
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
 }
 
 /*-----------------------------------------------------Footer*/
@@ -685,9 +692,3 @@ footer .list-pdf i:hover {
     }
 }
 
-.grow:hover
-{
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
-}
