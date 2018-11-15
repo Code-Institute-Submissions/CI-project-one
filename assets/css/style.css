@@ -231,18 +231,24 @@ header {
     margin: 0;
 }
 
+.index-logo {
+    background: url("../images/a-logo-cropped.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 360px;
+    animation: 1s ease-in-out 0s 1 slideInFromLeft;
+   
+}
+
 .logo {
     background: url("../images/a-logo-cropped.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 360px;
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    /*This transition is only working on the contact page logo.*/
+   
 }
-
 
 
 
