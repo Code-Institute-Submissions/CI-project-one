@@ -238,7 +238,6 @@ header {
     background-repeat: no-repeat;
     min-height: 360px;
     animation: 1s ease-in-out 0s 1 slideInFromLeft;
-   
 }
 
 .logo {
@@ -636,7 +635,7 @@ footer .list-pdf i:hover {
     }
 }
 
-@media(max-width: 359px) {
+@media(max-width: 480px) {
     figure .image-style {
         vertical-align: top;
         width: 140px;
@@ -652,7 +651,7 @@ footer .list-pdf i:hover {
 }
 
 
-@media(min-width: 767px) {
+@media(min-width: 481px) {
     figure .image-style {
         vertical-align: top;
         width: 180px;
