@@ -78,7 +78,6 @@ h7 {
     padding-bottom: 8px;
 }
 
-
 .band-info-item,
 .band-music-item,
 .band-customers-item {
@@ -309,7 +308,6 @@ header {
     border-color: #000000;
 }
 
-
 .menuitem {
     height: 86px;
     text-align: center;
@@ -467,7 +465,6 @@ footer .list-pdf i:hover {
     -o-transition: all 1s ease-out;
 }
 
-
 .social-links-quotes i {
     width: 32px;
     height: 32px;
@@ -532,7 +529,6 @@ footer .list-pdf i:hover {
     }
 }
 
-
 @media(max-width: 375px) {
     .section-heading-music {
         text-align: center;
@@ -551,7 +547,6 @@ footer .list-pdf i:hover {
     }
 }
 
-
 @media(max-width: 1024px) {
     .social-links-quotes i {
         margin-left: 15px;
@@ -563,7 +558,6 @@ footer .list-pdf i:hover {
         font-size: 18px;
     }
 }
-
 
 @media(min-width: 1025px) {
     .picture-customers-info {
@@ -593,7 +587,6 @@ footer .list-pdf i:hover {
     }
 }
 
-
 @media(min-width: 1025px) {
     .contact-styles {
         margin: 0px 100px;
@@ -612,7 +605,6 @@ footer .list-pdf i:hover {
         width: 140px;
         height: 100px;
     }
-
     figure .audio-bar {
         text-align: center;
         width: 140px;
@@ -625,7 +617,6 @@ footer .list-pdf i:hover {
         width: 180px;
         height: 155px;
     }
-
     figure .audio-bar {
         text-align: center;
         width: 180px;
@@ -638,7 +629,6 @@ footer .list-pdf i:hover {
         width: 200px;
         height: 170px;
     }
-
     figure .audio-bar {
         text-align: center;
         width: 200px;
