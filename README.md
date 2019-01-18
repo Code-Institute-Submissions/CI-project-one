@@ -49,12 +49,9 @@ Guidelines for project development:
 ## Purpose
 
 
-This website provides event bookers, current fans and future fans an opportunity to
-watch and listen to the bands back catalog of videos and songs. Information about new material
-and free access to new songs will also be made available here.
+This website provides event bookers, current fans and future fans an opportunity to watch and listen to the bands back catalog of videos and songs. Information about new material and free access to new songs will also be made available here.
 
-The website provides pictures and information about the band, as well as links to their social media accounts and Wiki page. Some recommendations made by previous customers have also been included.
-Several booking options for private events are available and clearly presented.
+The website provides pictures and information about the band, as well as links to their social media accounts and Wiki page. Several booking options for private events are available and clearly presented.
 
  
  
@@ -107,8 +104,13 @@ Several booking options for private events are available and clearly presented.
 - The project also made use of the CloudFlare and Font Awesome libraries.
 
 - The websites color scheme and layout were chosen in an attempt to represent the Animals long standing brand style with their peak popularity coming in the 1960s. A retro, classic-style approach was undertaken; to invoke The Animals experience.
+
+- Two of the audio tracks on the music page, and one user testimonial from the customers page, are not displayed on some smaller screen sizes. This was done in an attempt to improve the user experience.
  
 - The website includes a side article regards the bands ongoing activism in the field of animal rights and welfare. Customers are informed that 20% of all band earnings are made available to several animal charities. A link is provided for users if they would like to visit the webpage of one of their favorite [charities](https://www.worldanimalprotection.org/). It is hoped that this commitment may be appealing to potential customers and increase event bookings.
+
+
+
 
 
 
