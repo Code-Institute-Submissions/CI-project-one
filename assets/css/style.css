@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mukta+Malar:100,200,300,400,500,600,700|Roboto+Slab:100,200,300,400,500,600,700');
 
-/*-----------------------------------------------------Colors*/
+
+/*----------------------------------------------------- Color Styles*/
 
 .ui-menu-color-home {
     background-color: #ff8c00;
@@ -44,7 +45,7 @@
     background-color: #ffffff;
 }
 
-#strong-color {
+.strong-color {
     color: #ff8c00;
 }
 
@@ -52,7 +53,8 @@
     color: #ff4500;
 }
 
-/*-----------------------------------------------------Miscellaneous/Styles/Values/Bovinators*/
+
+/*----------------------------------------------------- Miscellaneous Styles*/
 
 h1,
 h2,
@@ -91,7 +93,6 @@ h7 {
     margin: 4px 8px 0px 0px;
     float: left;
     box-shadow: 3px 4px 7.4px 0.6px rgba(0, 0, 0, 0.2);
-
 }
 
 .picture-customers-info {
@@ -100,7 +101,6 @@ h7 {
     margin: 5px 10px 5px 0px;
     float: left;
     box-shadow: 3px 4px 7.4px 0.6px rgba(0, 0, 0, 0.2);
-
 }
 
 .picture-contact-info {
@@ -116,13 +116,10 @@ h7 {
 .list-inline li {
     display: inline-block;
     padding: 0px;
-
 }
 
 
-
-
-/*-----------------------------------------------------Section Headings*/
+/*----------------------------------------------------- Section Heading Styles*/
 
 .section-heading-music-info,
 .section-heading-band-info,
@@ -133,7 +130,6 @@ h7 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-
 
 .section-heading-home,
 .section-heading-music {
@@ -163,7 +159,7 @@ h7 {
     color: #000000;
 }
 
-/*-----------------------------------------------------Video/Audio/Images-styles*/
+/*----------------------------------------------------- Video/Audio/Audio-image Styles*/
 
 .video-container {
     position: relative;
@@ -199,7 +195,6 @@ iframe {
     padding-bottom: 16px;
 }
 
-
 figure {
     display: inline-block;
     margin: 10px;
@@ -214,7 +209,6 @@ figure .image-style {
 figure .audio-bar {
     text-align: center;
     width: 160px;
-
 }
 
 audio {
@@ -225,7 +219,8 @@ audio {
     box-shadow: 3px 4px 7.4px 0.6px rgba(0, 0, 0, 0.2);
 }
 
-/*-----------------------------------------------------Headings*/
+
+/*----------------------------------------------------- Heading Styles*/
 
 header {
     margin: 0;
@@ -246,11 +241,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 360px;
-   
 }
-
-
-
 
 .picture-main,
 .picture-contact {
@@ -260,7 +251,6 @@ header {
     background-repeat: no-repeat;
     min-height: 360px;
     position: relative;
-
 }
 
 .picture-music {
@@ -270,7 +260,6 @@ header {
     background-repeat: repeat;
     position: relative;
     min-height: 360px;
-
 }
 
 .picture-customers {
@@ -280,23 +269,20 @@ header {
     background-repeat: no-repeat;
     min-height: 360px;
     position: relative;
-
 }
 
 
-/*-----------------------------------------------------Navigation Styles*/
+/*----------------------------------------------------- Navigation Styles*/
 
 #navbar {
     position: absolute;
     bottom: 0;
     width: 100%;
-
 }
 
 #nav-list {
     margin: 0;
     padding: 0;
-
 }
 
 #border-home {
@@ -357,12 +343,10 @@ header {
 
 .hvr-rectangle-out {
     background: none;
-
-
-
 }
 
-/*--------------------------------------------------------Contact*/
+
+/*-------------------------------------------------------- Contact Styles*/
 
 .center-form {
     padding-top: 5px;
@@ -384,19 +368,15 @@ button[type="submit"] {
     color: #f0ffff;
 }
 
-/*-----------------------------------------------------Hover*/
+
+/*----------------------------------------------------- Hover Styles*/
 
 .hvr-rectangle-out:before {
     background: rgba(0, 0, 0, 0.2);
-
-
-
 }
 
 .social-links li a i:hover {
     background: #4169e1;
-
-
 }
 
 .wiki-link:hover {
@@ -410,18 +390,16 @@ button[type="submit"] {
 
 .social-links-quotes i:hover {
     background: #4169e1;
-
-
 }
 
-.grow:hover
-{
-        -webkit-transform: scale(1.2);
-        -ms-transform: scale(1.2);
-        transform: scale(1.2);
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
-/*-----------------------------------------------------Footer*/
+
+/*----------------------------------------------------- Footer Styles*/
 
 footer {
     background-color: #696969;
@@ -444,8 +422,6 @@ footer .list-pdf i {
     text-align: center;
 }
 
-
-
 footer .list-pdf i:hover {
     color: #4169e1;
     transition: all 1s ease-out;
@@ -465,16 +441,15 @@ footer .list-pdf i:hover {
 
 #social {
     padding-bottom: 12px;
-
 }
 
-/*-----------------------------------------------------Social Links*/
+
+/*----------------------------------------------------- Social Link Styles*/
 
 .social-links {
     padding-top: 0;
     padding-bottom: 6px;
 }
-
 
 .social-links li a i {
     width: 32px;
@@ -490,12 +465,10 @@ footer .list-pdf i:hover {
     -moz-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
-
 }
 
 
 .social-links-quotes i {
-
     width: 32px;
     height: 32px;
     padding: 10px 0;
@@ -510,11 +483,10 @@ footer .list-pdf i:hover {
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
-
 }
 
 
-/*-----------------------------------------------------Media Queries*/
+/*----------------------------------------------------- Media Queries*/
 
 @media(min-width: 992px) {
     .section-column {
@@ -545,7 +517,6 @@ footer .list-pdf i:hover {
         border-width: 0px 0px 4px 0px;
         border-color: #000000;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -575,7 +546,7 @@ footer .list-pdf i:hover {
 }
 
 @media(max-width: 411px) {
-    #pad-none {
+    .pad-none {
         padding-left: 0;
     }
 }
@@ -645,11 +616,8 @@ footer .list-pdf i:hover {
     figure .audio-bar {
         text-align: center;
         width: 140px;
-
     }
-
 }
-
 
 @media(min-width: 481px) {
     figure .image-style {
@@ -661,9 +629,7 @@ footer .list-pdf i:hover {
     figure .audio-bar {
         text-align: center;
         width: 180px;
-
     }
-
 }
 
 @media(min-width: 1680px) {
@@ -676,17 +642,18 @@ footer .list-pdf i:hover {
     figure .audio-bar {
         text-align: center;
         width: 200px;
-
     }
 }
 
 @media(max-width: 359px) {
     
-#hidden-xxs{
+#hidden-xxs {
     display: none;
+    }
 }
-}
-/*------------------------------------------------------Keyframes*/
+
+
+/*------------------------------------------------------ Keyframes*/
 
 @keyframes slideInFromLeft {
     0% {
