@@ -1,6 +1,6 @@
 # The Animals Website
 
-### Code Institute: User Centric Frontend Development Milestone Project
+### Code Institute: User Centric Front End Development Milestone Project
 
 <a href="https://markwilde33.github.io/CI-project-one/" target="_blank"> Click here to view website</a>
 
@@ -106,7 +106,7 @@ Several booking options for private events are available and clearly presented.
 
 - The project also made use of the CloudFlare and Font Awesome libraries.
 
-- The website's color scheme and layout were chosen in an attempt to represent the Animals long standing brand style with their peak popularity coming in the 1960s. A retro, classic-style approach was undertaken; to invoke The Animals experience.
+- The websites color scheme and layout were chosen in an attempt to represent the Animals long standing brand style with their peak popularity coming in the 1960s. A retro, classic-style approach was undertaken; to invoke The Animals experience.
  
 - The website includes a side article regards the bands ongoing activism in the field of animal rights and welfare. Customers are informed that 20% of all band earnings are made available to several animal charities. A link is provided for users if they would like to visit the webpage of one of their favorite [charities](https://www.worldanimalprotection.org/). It is hoped that this commitment may be appealing to potential customers and increase event bookings.
 
@@ -117,8 +117,7 @@ Several booking options for private events are available and clearly presented.
 
 Several user stories were considered before development began:
 
-1. "As a current Animals fan I want to be able to quickly access the bands music online via an official website. I also want 
-    to be up-to-date with new material, news and announcements"
+1. "As a current Animals fan I want to be able to quickly access the bands music online via an official website. I also want to be up-to-date with new material, news and announcements"
  
 2. "As a current Animals fan I would like to recommend an official Animals website to my friends (as potential new fans). So that they can watch and listen to the bands videos and music; and learn more about the bands history."
 
@@ -135,7 +134,7 @@ Several user stories were considered before development began:
 
 | Page      | Description                                                                                                                                                                                         |
 | :-------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Index      | This the the landing page. It includes the bands logo, information about the band an iconic band photograph and two embedded YouTube videos of the bands hit songs.                                 |
+| Index      | This is the landing page. It includes the bands logo, information about the band an iconic band photograph and two embedded YouTube videos of the bands hit songs.                                 |
 | Music     | This page includes 6 audio tracks with individual album covers, current band news and a link to lead singer Eric Burdons latest solo album. It will also host new material as it becomes available. |
 | Customers | This page includes some kind words of recommendation from some of the bands famous customers. It also documents the bands ongoing animal activism and charity work.                                 |
 | Contact   | This page provides information on how to contact the band and book an event. Links to the bands availability throughout the year and event pricing, are also provided.                              |
@@ -146,7 +145,7 @@ Several user stories were considered before development began:
 
 
 - A merchandise page.
-- A page listing the music festivals and concerts the band will be playing at in the coming calender year.
+- A page listing the music festivals and concerts the band will be playing at in the coming calendar year.
 - A page hosting a photo collection and personal stories about each band member.
 
 
@@ -186,7 +185,7 @@ Several user stories were considered before development began:
     
 
     
-**Version Control**
+### Version Control
 
 
 
@@ -206,12 +205,11 @@ Several user stories were considered before development began:
 #### User Tests:
 
 1. Verify fans of the band can quickly access the bands music on the website.
-2. Verify fans of the band can quicly access up-to-date news and new material on the website (if and when it's published).
-3. Verify that the website has the potential to be recommended to friends of current website users. 
- As the site hosts band videos and songs, and includes historical band information, it is hoped that this condition is met.
-4. Verify that poential fans of the band can acees some of the bands best material for free.
+2. Verify fans of the band can quickly access up-to-date news and new material on the website (if and when it's published).
+3. Verify that the website has the potential to be recommended to friends of current website users. As the site hosts band videos and songs, and includes historical band information; it is hoped that this condition is met.
+4. Verify that potential fans of the band can access some of the bands best material for free.
 5. Verify that users can see some pictures of the band.
-6. Verify that potential event bookers can do so in a straightforward manner, through an offical website.
+6. Verify that potential event bookers can do so through an official website, in a straightforward manner.
 7. Verify that potential event bookers have instant free access to some of the bands greatest hits.
 8. Verify that potential event bookers have clearly presented and easily accessible information on the bands availability throughout the year and booking prices.
 9. Verify that site users have easy access to the bands social media accounts, allowing them to keep up with the latest band news and exciting developments.
@@ -229,30 +227,41 @@ Several user stories were considered before development began:
 2. Click on each of the four links in the navbar and verify each one is working as intended, i.e., when the user clicks the music link he/she is taken to the music page; and so on.
 3. Verify that the embedded Youtube videos are working as intended. Press play in both videos and ensure each song plays.
 4. Verify that each link in the footer is working as intended, users will be taken to the relevant webpage.
-5. Verify custom styles are working as intended, for example, when the page loads the embedded Youtube videos slide in from the left side of the screen.
-6. Verify the nav links display a transparent dark shadow when the mouse is hovered over them.
+5.  Verify that, in the case of the pricelist link, a PDF document will open in the browser which users can read, download or print.
+6.  Verify that the pricelist PDF includes all the information a potential event booker would expect to find.
+7. Verify custom styles are working as intended, for example, when the page loads the embedded Youtube videos slide in from the left side of the screen.
+8. Verify the navbar links display a transparent dark shadow when the cursor is hovered over them.
+9. Verify all links change color when the cursor hovers over them.
+10. Verify that there are no grammatical errors in the band info section.
+
 
 #### Music Page:
    
-1. Verify that users are taken to
+1. Verify that users can click on the picture of Eric Burdon, verify this action takes users to his latest solo album on the Youtube website.
+2. Verify that the album covers in the audio section are displaying correctly.
+3. Verify that the audio bars in the audio section are displaying and functioning correctly, i.e., users can play each individual song and adjust the volume in the audio bar controls.
+4. Verify custom styles are working as intended, for example, audio bars should expand when the mouse cursor hovers over them.
+5. Verify that there are no grammatical errors in the band info section.
 
 
+#### Customers Page:
 
-#### Login Page:
+1. Verify that the customer images and quotes are displaying as intended.
+2. Verify the twitter icon link for each customer is working correctly.
+3. Verify that users can click on the picture of the dog, verify this action takes users to the intended animal charity website.
+4. Verify custom styles are working as intended, for example, twitter icons should change color when the cursor hovers over them.
+5. Verify that there are no grammatical errors in the animal charity info section.
+
+
+#### Contact Page:
    
-1. Try to submit the empty form and verify that an error message about the required fields appears.
-2. Try to submit the form with an invalid username and verify that a relevant error message appears.
-3. Try to submit the form with an invalid password and verify that a relevant error message appears.
-4. Try to submit the form with all inputs valid and verify that a success message appears, and that users are taken to the start quiz page.
-   
-
-#### Start Quiz Page:
-   
-1. Click on the "Play Quiz" button and verify the play quiz page is loaded.
-2. Click on the "Play Riddle" link in the navbar and verify the play quiz page is loaded.
-3. Click on the "Leaderboard" link in the navbar and verify the leaderboard page is loaded.
-4. Click on the "Logout" link in the navbar and verify the user is logged out and taken to the index page.
-5. Verify that images and riddle rules are being displayed.
+1. Verify that the image in the booking section is displaying as intended.
+2. Verify the booking form in the booking section is displaying as intended.
+3. Verify the 'Make a booking request below' link displays the pricelist on a separate web page when clicked.
+4. Verify the Name, Email and Event description fields each display a prompt to enter some text when left blank.
+5. Verify that when each field has been filled and the user clicks on the 'Send Event Request' button, the form is cleared so that further requests can be made.
+6. Verify custom styles are working as intended, for example, the text in the 'Send Event Request' button should change color when the cursor hovers over it.
+7. Verify that there are no grammatical errors in the booking section.
 
 
 </details> 
@@ -270,15 +279,15 @@ Several user stories were considered before development began:
 isolate issues and improve mobile responsiveness.
 - The app has been tested on various browsers, including Chrome, Firefox, Opera, and Safari.
 - The app was tested across many screen sizes, from very small to very large.
-- It is displaying as intended across various devices and in different browsers.
+- Some family members tested the app on their own devices and their recommendations, such as which band picture might be best for each page, were taken on board.
+- The app is displaying as intended across various devices and in different browsers.
 
 
 ### Issues
 
-- The author is not yet proficient in automated testing, and as such, was unable to adhere to a test driven development approach.
-- On the start quiz page, there is an issue where, on some screen sizes, the riddle card displays at a different height than the animal image cards.  
-- There is some white space between the flashed messages and the navbar. As some pages use full size background images this pushes the images down a little.
-- There was an issue with full screen background images not taking up the full screen space on some smaller mobile screens. As a result, media queries were used to remove background images on some smaller mobile screens.
+- The logo image top left of each page only slides in from the left on the index page (when the page is loaded). It was originally intended that it would perform this action on every page. However, it only ever worked on the index page. After considerable time spent, and a discussion regards same with a mentor; the author was unable to fix the issue. Thus, a separate class was created for this style  so that it was unique to the index page. The remaining pages share another class, which does not include a slide in from left style.
+- On very large or very small screen sizes the band pictures may display as significantly more zoomed in or zoomed out. This isn't ideal as some band members, or band members heads may not be visible on viewports at either end of the scale. This could be addressed using image-editing software such as [Photoshop](https://www.photoshop.com) to create various photo sizes for various screen sizes, although it may be quite time consuming.
+- The embedded Youtube videos also show a logo of the Youtuber who has shared the content. It would be preferable aesthetically if these logos were not present. The author attempted to remove the logos with some custom styles, but was unsuccessful.
 
 
 </details> 
@@ -326,12 +335,12 @@ App available at http://127.0.0.1:5000/
 
 [Code Institute](https://codeinstitute.net/)
 
-The Html Fundamentals module, Css Fundamentals module and the User Centric Frontend Development module were used for guidance.
+The Html Fundamentals module, Css Fundamentals module and the User Centric Front End Development module were used for guidance.
 
 
 ### Content
 
-- [Wikepedia](https://en.wikipedia.org/wiki/The_Animals) was used for band information.
+- [Wikipedia](https://en.wikipedia.org/wiki/The_Animals) was used for band information.
 - [Youtube](https://www.youtube.com/results?search_query=the+animals) was used for band music.
 
 
