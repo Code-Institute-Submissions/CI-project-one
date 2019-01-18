@@ -119,11 +119,11 @@ The website provides pictures and information about the band, as well as links t
 
 Several user stories were considered before development began:
 
-1. "As a current Animals fan I want to be able to quickly access the bands music online via an official website. I also want to be up-to-date with new material, news and announcements"
+1. "As a current Animals fan I want to be able to quickly access the bands music online via an official website. I also want to be up-to-date with new material, news and announcements."
  
 2. "As a current Animals fan I would like to recommend an official Animals website to my friends (as potential new fans). So that they can watch and listen to the bands videos and music; and learn more about the bands history."
 
-3. "As a potential Animals fan, I would appreciate access to an official band website were I can easily access the bands material for free. I would like to see some pictures of the band and be provided with up-to date information about the band."
+3. "As a potential Animals fan, I would appreciate access to an official band website were I can easily access the bands material for free. I would also like to see some pictures of the band and be provided with up-to date information about the band."
 
 4. "As a potential customer who is considering booking the band for an event, I want easy access to the means of doing so through an official website. I also want quick access to some of their greatest hits which I would expect to find freely available on their website. Furthermore, I would like access to useful information such as band availability and event prices. Again, I would expect this information to be clearly presented and easily accessible via the bands website."
 
@@ -139,7 +139,7 @@ Several user stories were considered before development began:
 | Index      | This is the landing page. It includes the bands logo, information about the band an iconic band photograph and two embedded YouTube videos of the bands hit songs.                                 |
 | Music     | This page includes 6 audio tracks with individual album covers, current band news and a link to lead singer Eric Burdons latest solo album. It will also host new material as it becomes available. |
 | Customers | This page includes some kind words of recommendation from some of the bands famous customers. It also documents the bands ongoing animal activism and charity work.                                 |
-| Contact   | This page provides information on how to contact the band and book an event. Links to the bands availability throughout the year and event pricing, are also provided.                              |
+| Contact   | This page displays information on how to contact the band and book an event. A simple booking form is provided for potential customers. Links to the bands availability throughout the year and event pricing, are also included.                              |
 
 
 
@@ -147,7 +147,7 @@ Several user stories were considered before development began:
 
 
 - A merchandise page.
-- A page listing the music festivals and concerts the band will be playing at in the coming calendar year.
+- A page listing the music festivals and concerts the band will be playing a in the coming calendar year.
 - A page hosting a photo collection and personal stories about each band member.
 
 
@@ -179,7 +179,7 @@ Several user stories were considered before development began:
 - [FontAwesome Icons](https://fontawesome.com/)
     - The project uses **FontAwesome** for the social media icons and the navbar buttons.
     
-- [Hover.CSS](http://ianlunn.github.io/Hover/)
+- [Hover.css](http://ianlunn.github.io/Hover/)
     - The project uses **Hover** for button hover animations for social media icons and the navbar buttons.
  
 - [Google Fonts Library](https://fonts.google.com/)
@@ -242,7 +242,7 @@ Several user stories were considered before development began:
 1. Verify that users can click on the picture of Eric Burdon, verify this action takes users to his latest solo album on the Youtube website.
 2. Verify that the album covers in the audio section are displaying correctly.
 3. Verify that the audio bars in the audio section are displaying and functioning correctly, i.e., users can play each individual song and adjust the volume in the audio bar controls.
-4. Verify custom styles are working as intended, for example, audio bars should expand when the mouse cursor hovers over them.
+4. Verify custom styles are working as intended, for example, audio bars should expand when the cursor hovers over them.
 5. Verify that there are no grammatical errors in the band info section.
 
 
@@ -288,7 +288,9 @@ isolate issues and improve mobile responsiveness.
 ### Issues
 
 - The logo image top left of each page only slides in from the left on the index page (when the page is loaded). It was originally intended that it would perform this action on every page. However, it only ever worked on the index page. After considerable time spent, and a discussion regards same with a mentor; the author was unable to fix the issue. Thus, a separate class was created for this style  so that it was unique to the index page. The remaining pages share another class, which does not include a slide in from left style.
+
 - On very large or very small screen sizes the band pictures may display as significantly more zoomed in or zoomed out. This isn't ideal as some band members, or band members heads may not be visible on viewports at either end of the scale. This could be addressed using image-editing software such as [Photoshop](https://www.photoshop.com) to create various photo sizes for various screen sizes, although it may be quite time consuming.
+
 - The embedded Youtube videos also show a logo of the Youtuber who has shared the content. It would be preferable aesthetically if these logos were not present. The author attempted to remove the logos with some custom styles, but was unsuccessful.
 
 
